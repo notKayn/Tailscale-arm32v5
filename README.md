@@ -9,8 +9,8 @@ Tailscale happened to have their source code open source, so I could compile a T
 
 So there's the Dockerfile, you compile it yourself if you happen to need the latest version of Tailscale.
 
-You can also get the version of Tailscale I'm running, currently it's 1.98.3 by the time I'm writing this.
+It's currently running on 1.98.3 version by the time I'm writing this.
 
-I might compile other versions if there's any update, but if I don't, just DIY.
+I can't provide a version of Tailscale I'm running because it's too big for github repo (it's around 60mb-ish), just do it yourself haha.
 
 And yeah, sorry for (if any) bad english.
