@@ -14,3 +14,10 @@ It's currently running on 1.98.3 version by the time I'm writing this.
 I can't provide a version of Tailscale I'm running because it's too big for github repo (it's around 60mb-ish), just do it yourself haha.
 
 And yeah, sorry for (if any) bad english.
+
+
+To build the image on CMD:
+> docker buildx build --platform linux/arm/v5 --load -t tailscale-mikrotik-armv5 .
+
+To export the image as .tar file on CMD:
+> docker save tailscale-mikrotik-armv5 -o tailscale-armv5.tar
